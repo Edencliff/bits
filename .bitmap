@@ -10,35 +10,10 @@
 
 {
     "responsive/breakpoints": {
-        "scope": "",
-        "version": "",
+        "scope": "bytefoolish.bits",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "bits/responsive/breakpoints",
-        "nextVersion": {
-            "version": "patch",
-            "message": "init",
-            "username": "bytefoolish",
-            "email": "bytefoolish@gmail.com"
-        },
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.community/envs/community-react"
-            },
-            "teambit.community/envs/community-react@1.95.12": {},
-            "teambit.component/dev-files": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.pipelines/builder": {},
-            "teambit.compilation/compiler": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "teambit.design",
-                    "name": "responsive/breakpoints",
-                    "version": "0.0.6"
-                }
-            }
-        }
+        "rootDir": "bits/responsive/breakpoints"
     },
     "$schema-version": "14.9.0"
 }
